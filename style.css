@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background: linear-gradient(287.56deg, #C2E9FB 0%, #A1C4FD 100%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+
+
+.container{
+    background: #FFFFFF;
+    
+    width: min(42.8rem, 90%);
+    height: 27.3rem;
+    
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    
+    margin: auto;
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    text-align: center;
+}
+
+main h1, h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    line-height: 2.9rem;
+    font-style: normal;
+}
+
+.hide{
+    display: none;
+}
+
+main p{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-top: 1.6rem;
+}
+
+.input-wrapper{
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* screen 1 */
+
+ input, button{
+    border: none;
+    height: 5.3rem;
+    font-size: 2rem;
+    padding: 1.6rem;
+}
+
+input{
+    background: #DCE2E9;
+    border-radius: 4px 0 0 4px;
+    width: 7rem;
+}
+
+button{
+    background: #7879F1;
+    border-radius: 0 4px 4px 0;
+    color: #FFFFFF;
+    font-family: 'DM Sans';
+}
+
+button:hover{
+    cursor: pointer;
+    background: #5151a9;
+}
+
+/* screen 2*/
+
+h2{
+    margin-bottom: 6rem;
+}
+
+.screen2 button{
+    border-radius: 4px;
+}

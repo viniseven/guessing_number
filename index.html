@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Advinhação</title>
+</head>
+<body>
+    <div class="container">
+        <main>
+
+            <div class="screen1">
+                <h1>Jogo da Adivinhação</h1>
+
+                <p>Adivinhe o número entre 0 e 10</p>
+
+                <form>
+                    <div class="input-wrapper">
+                        <input type="number" id="inputNumber" maxlength="2">
+                        <button id="btnTry">Tentar</button>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="screen2 hide">
+                <h2>Acertou em 3 tentativas!</h2>
+
+                <button id="btnReset">Jogar novamente</button>
+            </div>
+        </main>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
