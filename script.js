@@ -48,5 +48,6 @@ document.addEventListener('keydown',
     toggleScreen();
     xAttempts = 1;
     randomNumber = Math.round(Math.random()*10);
+    console.log(randomNumber)
  }
 
